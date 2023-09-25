@@ -24,6 +24,7 @@ for i in range(len(word_count)-1):
     if  word_count[i] > max_word_count:
         max_word_count = word_count[i]
         min_word = word[i]
+        
     elif word_count[i] == max_word_count:
         if word[i] < min_word:
             min_word = word[i]
